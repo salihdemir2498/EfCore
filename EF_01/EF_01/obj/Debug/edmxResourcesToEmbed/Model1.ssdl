@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HastaneSabahModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Bolumler">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BolumAd" Type="varchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Doktorlar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SicilNo" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="AdSoyad" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Tel" Type="varchar" MaxLength="11" />
+    <Property Name="Mail" Type="varchar" MaxLength="30" />
+    <Property Name="BolumID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Hastalar">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TcNo" Type="char" MaxLength="11" Nullable="false" />
+    <Property Name="Ad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Soyad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Cinsiyet" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="Adres" Type="varchar" MaxLength="30" />
+    <Property Name="Telefon" Type="char" MaxLength="11" />
+    <Property Name="Mail" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <Association Name="FK__Doktorlar__Bolum__2B3F6F97">
+    <End Role="Bolumler" Type="Self.Bolumler" Multiplicity="1" />
+    <End Role="Doktorlar" Type="Self.Doktorlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bolumler">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Doktorlar">
+        <PropertyRef Name="BolumID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HastaneSabahModelStoreContainer">
+    <EntitySet Name="Bolumler" EntityType="Self.Bolumler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Doktorlar" EntityType="Self.Doktorlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Hastalar" EntityType="Self.Hastalar" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Doktorlar__Bolum__2B3F6F97" Association="Self.FK__Doktorlar__Bolum__2B3F6F97">
+      <End Role="Bolumler" EntitySet="Bolumler" />
+      <End Role="Doktorlar" EntitySet="Doktorlar" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

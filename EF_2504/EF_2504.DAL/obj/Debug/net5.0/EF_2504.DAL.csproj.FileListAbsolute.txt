@@ -1,0 +1,15 @@
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.deps.json
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.runtimeconfig.json
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.runtimeconfig.dev.json
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.dll
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\bin\Debug\net5.0\ref\EF_2504.DAL.dll
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.pdb
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.csproj.AssemblyReference.cache
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.AssemblyInfoInputs.cache
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.AssemblyInfo.cs
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.csproj.CoreCompileInputs.cache
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.dll
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\ref\EF_2504.DAL.dll
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.pdb
+D:\Users\salih\source\repos\asp\Asp-MVC\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.genruntimeconfig.cache

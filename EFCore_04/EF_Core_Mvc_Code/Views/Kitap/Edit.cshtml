@@ -1,0 +1,52 @@
+@model EF_Core_Mvc_Code.Models.Kitaplar
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h5>@Model.Ad - Kitap Düzenle</h5>
+<hr>
+<form asp-action="Edit">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="mb-3">
+                <label asp-for="Isbn" class="control-label">Isbn</label>
+                <input asp-for="Isbn" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Ad" class="control-label">Kitap Adı</label>
+                <input asp-for="Ad" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="SayfaSayisi" class="control-label">Sayfa Sayısı</label>
+                <input asp-for="SayfaSayisi" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Stok" class="control-label">Stok Miktarı</label>
+                <input asp-for="Stok" type="text" class="form-control">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="mb-3">
+                <label asp-for="TurId" class="control-label">Kitap Türü</label>
+                <select asp-for="TurId" class="form-control form-select" asp-items="ViewBag.Tur"></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="YazarId" class="control-label">Yazar</label>
+                <select asp-for="YazarId" class="form-select form-control" asp-items="ViewBag.Yazar"></select>
+            </div>
+            <div class="mb-3">
+                <label asp-for="YayinEviId" class="control-label">Yayin evi</label>
+                <select asp-for="YayinEviId" class="form-select form-control" asp-items="ViewBag.YayinEvi"></select>
+            </div>
+            <div class="mb-3">
+                <button asp-action="Edit" type="submit" class="btn btn-success">Değişiklikleri Kaydet</button>
+            </div>
+        </div>
+    </div>
+
+
+</form>
+</div>
+</div>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EF_2504.DAL.Entities.Author">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAABAAEAAAAAAAAAAAAAAAAAACBABAAAAAAA=</HashCode>
+      <FileName>Entities\Author.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF_2504.DAL.Entities.Book">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAAARAAgAAAAAAQAAAAAAAAAAAAAAAAAAACAQ=</HashCode>
+      <FileName>Entities\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF_2504.DAL.Entities.BookDetail">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAABAAAIABAACBEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BookDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EF_2504.DAL.Entities.Category">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAgCAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Entities\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

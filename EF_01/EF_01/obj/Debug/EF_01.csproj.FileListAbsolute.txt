@@ -1,0 +1,12 @@
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EF_01.exe.config
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EF_01.exe
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EF_01.pdb
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EntityFramework.dll
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EntityFramework.xml
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\obj\Debug\EF_01.csproj.AssemblyReference.cache
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\obj\Debug\EF_01.csproj.CoreCompileInputs.cache
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\obj\Debug\EF_01.csproj.CopyComplete
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\obj\Debug\EF_01.exe
+D:\Users\salih\source\repos\asp\4Nisan(Asp)\EF_01\EF_01\obj\Debug\EF_01.pdb

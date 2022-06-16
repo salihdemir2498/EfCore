@@ -1,0 +1,42 @@
+@model Kitaplar
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 style="margin-bottom: 28px;">@Model.Ad adlı Kitabın Detayları</h1>
+
+<div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Kitap ISBN: </h6>
+    <p>@Model.Isbn</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Kitap Ad:</h6>
+    <p>@Model.Ad</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Kitap Sayfasayısı:</h6>
+    <p>@Model.SayfaSayisi</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Stok Miktarı:</h6>
+    <p>@Model.Stok</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Tür Adı:</h6>
+    <p>@Model.Tur</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Yazarı:</h6>
+    <p>@Model.Yazar</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Yayınevi Adı:</h6>
+    <p>@Model.YayinEvi</p>
+    </div>
+</div>
+<form asp-action="Delete">
+<input type="hidden" asp-for="Isbn">
+<input type="submit" value="Kitab Türünü Sil" class="btn btn-danger">
+</form>
+<a asp-action="Index">Kitaplara dön.</a>

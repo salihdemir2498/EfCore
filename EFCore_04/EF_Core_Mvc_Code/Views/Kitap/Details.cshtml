@@ -1,0 +1,39 @@
+@model EF_Core_Mvc_Code.Models.Kitaplar;
+
+@{
+    ViewData["Title"] = @Model.Ad + " adlı Kitabın detayları";
+}
+
+<h1 style="margin-bottom: 28px;">@Model.Ad adlı Kitabın Detayları</h1>
+
+<div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Kitap ISBN: </h6>
+    <p>@Model.Isbn</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Kitap Ad:</h6>
+    <p>@Model.Ad</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Kitap Sayfasayısı:</h6>
+    <p>@Model.SayfaSayisi</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Stok Miktarı:</h6>
+    <p>@Model.Stok</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Tür Adı:</h6>
+    <p>@Model.Tur.TurAd</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Yazarı:</h6>
+    <p>@Model.Yazar.AdSoyad</p>
+    </div>
+    <div style="display: flex;">
+    <h6 style="margin-right: 12px;">Yayınevi Adı:</h6>
+    <p>@Model.YayinEvi.Ad</p>
+    </div>
+</div>
+<a asp-action="Index">Kitaplara dön.</a>
